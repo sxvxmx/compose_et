@@ -118,8 +118,8 @@ services:
     restart: unless-stopped
 
   traefik:
-    image: "traefik:v2.10"
-    container_name: "traefik"
+    image: traefik:v2.10
+    container_name: traefik
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
